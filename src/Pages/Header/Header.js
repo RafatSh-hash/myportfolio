@@ -3,15 +3,8 @@ import Rafat from "../../Assets/img1.jpg";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import Projects from "../Projects/Projects";
-import { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-cards";
-// import "./styles.css";
-import { EffectCards } from "swiper";
-import Progress from "../Progress/Progress";
 
 const Header = () => {
   AOS.init({ duration: 1000 });
@@ -29,18 +22,21 @@ const Header = () => {
           data-aos="fade-left"
           className="lg:w-1/2 sm:w-full h-auto mx-auto p-5 justify-center items-center"
         >
-          <h1 className="text-5xl text-left text-sky-200 font-semibold">
-            Hi! Welcome To the{" "}
-            <span className="text-red-500 font-bold">Hex</span>
+          <h1 className="text-5xl text-left text-sky-200">
+            Hi! Welcome To
+            <span className="text-red-500 font-bold"> Hex</span>
           </h1>
           <div className="my-5">
-            <p className="text-left text-white font-semibold ">
-              Hello! I'm Sadman, a self-motivated and enthusiastic web
-              developer. I have been learning web development for 1.5 years. I
-              have learned JavaScript, React js, Node js, MongoDB, and Express
-              js during this period. Also, I am trying to explore new things
-              every day and look for an opportunity to make an impact in the web
-              development field with my acquired skills. <br />
+            <p className="text-left text-white">
+              <code style={{ "font-size": "18px" }}>
+                Hello! I'm Sadman, a self-motivated and enthusiastic web
+                developer. I have been learning web development for 1 years. I
+                have learned JavaScript, React js, Node js, MongoDB, and Express
+                js during this period. Also, I am trying to explore new things
+                every day and look for an opportunity to make an impact in the
+                web development field with my acquired skills.
+              </code>{" "}
+              <br />
               <button
                 type="button"
                 class="text-white my-3 bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"

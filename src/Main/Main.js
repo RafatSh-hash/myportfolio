@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import Navigation from "../Pages/Shared/Navigation/Navigation";
 import Foot from "../Pages/Shared/Foot/Foot";
 import Header from "../Pages/Header/Header";
-import Progress from "../Pages/Progress/Progress";
+import Skills from "../Pages/Skills/Skills";
 
 const Main = () => {
   return (
@@ -13,7 +13,7 @@ const Main = () => {
       </div>
       <Header></Header>
       <div data-aos="fade-up" className="w-3/5 mx-auto">
-        <Progress></Progress>
+        <Skills></Skills>
       </div>
     </div>
   );
