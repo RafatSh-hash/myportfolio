@@ -1,10 +1,14 @@
 import React from "react";
+import "./Progress.css";
 
 const Progress = () => {
   return (
     <div className="mt-20">
       <h1 className="text-sky-200 text-4xl text-center">Here are my skills</h1>
-      <div>
+      <div className="relative">
+        <div class="blob"></div>
+        <div class="blob"></div>
+
         <div class="mb-1 text-left text-base font-medium text-white dark:text-white">
           HTML
         </div>
