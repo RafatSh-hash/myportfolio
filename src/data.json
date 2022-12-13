@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "projectName": "Code Genious",
+      "img1": "https://ibb.co/wYRsJwW",
+      "img2": "https://ibb.co/GtNQFSZ",
+      "img3": "https://ibb.co/nQLbxNG",
+      "details": "Code Genius is a fun quiz website where you can test your basic programming expertise on React, CSS, JavaScript & Git.At first you are welcomed on the login page, where you can enter the credentials and click 'Login' to enter the Home page.On the Home page you can click 'Take a test' and you will be redirected to your game cards.Pick a topic as you please and you shall see a list of MCQ.Click on the radio button and if your answer is true a popup noptification will let you know, same goes for the wrong answer also.Your total score will be shown on the right hand side of the page, or at the bottom if you are browsing from a mobile device.As an additional feature, you can see the correct answer by clicking on the eye icon.There is a blog page also displaying a few question with answer.Last of all there is a statistics page where a chart dictates the number of questions per topic displayes at the Game page."
+    },
+    {
+      "id": 2,
+      "projectName": "Phone Pocket",
+      "img1": "https://ibb.co/G5MF9gc",
+      "img2": "https://ibb.co/X2QhTy2",
+      "img3": "https://ibb.co/7Nhcb2P",
+      "details": "Phone Pocket is a resale website where users can buy or sell used phones under three categoriesThe landing page displays a banner, advertised products(if seller advertises any product), and under that section three categories are displayed (Google, Samsung, iPhone).User has to be logged in to see all the products posted under respective category.User has to login as a user.User can see product details on the product card.He/she can book products which will displayed as a list on the Dashboard route on the navbar.User Can also add a product to his/her wishlist, which will be displayed on My Wishlist route.Blog page displays some question-answers.If anybody wants to be a seller he/she must register on the website as a Seller.A seller can see the 'Add Products' and 'My Products'option on the navbar.On the 'Add Products' section seller can add a product with all the credentials needed for an item to be posted on the respective category. Note that a seller has to select the right category for the product.'My Products' route displays the products which are added by the seller.A seller can delete his posted product from the website by clicking delete Product.Seller can advertise his product by clicking advertise which will appear on the home page under banner section.Admin can see 'All Users' and 'All Sellers' route on the navigation bar.All users route displays all the users registered on the website.All Sellers route displays all the sellers registered on the website.Admin can either verify or delete a seller as per his likings.Users image are displayed on the right most side of the navbar. Basic Animation are applied for the products and various other components.There is a 'Contact Us' page where people can comment or suggestion.A dark mode button in implemented on the navbar.Dynamic Route is implemented."
+    },
+    {
+      "id": 3,
+      "projectName": "Bit Masters",
+      "img1": "https://ibb.co/z69LdFZ",
+      "img2": "https://ibb.co/BTYmVgv",
+      "img3": "https://ibb.co/XDPmC6Z",
+      "details": "Bit Masters is a fun learning platform where firstly user lands on the home page. Home page has a navbar and a card.The navbar contains logo, site name, some route options, a dark mode toggle button and user profile image.If you click on the 'Take A Tour' button it'll redirect you to the category page where you can find various categories of courses.Click on 'Our Courses' and you can see all the courses available under the respective category, you can also see the categories of the courses under the navigation bar.If you want to get access , click the 'Get Access' button.Note that you should be signed in as a valid user to get the course access as setting access of the course data is private information, you cannot access them while not being a valid user.click the download file button if you want to download the course details as a PDF File.You can create an account by email/password or Google or GitHub as per your liking.FAQ page displays some common ques with answers about the website, and the blog page holds some ques and answers."
+    }
+  ]

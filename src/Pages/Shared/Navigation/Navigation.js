@@ -8,7 +8,7 @@ const Navigation = () => {
     <div className="flex w-full justify-between">
       <div>
         <Navbar.Brand href="/">
-          <img src={Logo} className="mr-3 h-20  sm:h-9" alt="Flowbite Logo" />
+          <img src={Logo} className="mr-3 h-20  sm:h-9" alt="Logo" />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
             HEX!
           </span>

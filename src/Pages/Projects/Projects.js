@@ -10,12 +10,13 @@ import { EffectCards } from "swiper";
 import img1 from "../../Assets/Code Genius.png";
 import img2 from "../../Assets/Phone Pocket.png";
 import img3 from "../../Assets/Bit-Masters.png";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
     <div className="mt-28">
-      <h1 className="text-5xl font-semibold text-sky-200 mt-30">
-        Here are some of the projects I build
+      <h1 className="text-5xl text-white mt-30">
+        Some of the projects I build
       </h1>
       <div className="my-20">
         <Swiper
@@ -57,11 +58,22 @@ const Projects = () => {
               <button class="relative my-3 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium hovtext-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:font-semibold dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
                 <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   <a
-                    className="text-black"
+                    className="text-black hover:text-white"
                     href="https://code-genius.netlify.app/home"
                     target="_blank"
                   >
                     Take A Look
+                  </a>
+                </span>
+              </button>
+              <button class="relative my-3 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium hovtext-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:font-semibold dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  <a
+                    className="text-black hover:text-white"
+                    href="/details/1"
+                    target=""
+                  >
+                    Details
                   </a>
                 </span>
               </button>
@@ -100,11 +112,22 @@ const Projects = () => {
               <button class="relative my-3 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium hovtext-white rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:font-semibold dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
                 <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   <a
-                    className="text-black"
+                    className="text-black hover:text-white"
                     href="https://test-4e195.web.app/"
                     target="_blank"
                   >
                     Take A Look
+                  </a>
+                </span>
+              </button>
+              <button class="relative my-3 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium hovtext-white rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:font-semibold dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  <a
+                    className="text-black hover:text-white"
+                    href="/details/2"
+                    target=""
+                  >
+                    Details
                   </a>
                 </span>
               </button>
@@ -144,11 +167,22 @@ const Projects = () => {
               <button class="relative my-3 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium hovtext-white rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:font-semibold dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
                 <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   <a
-                    className="text-black"
+                    className="text-black hover:text-white"
                     href="https://bit-masters.web.app/"
                     target="_blank"
                   >
                     Take A Look
+                  </a>
+                </span>
+              </button>
+              <button class="relative my-3 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium hovtext-white rounded-lg group bg-gradient-to-br from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:font-semibold dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                  <a
+                    className="text-black hover:text-white"
+                    href="/details/3"
+                    target=""
+                  >
+                    Details
                   </a>
                 </span>
               </button>

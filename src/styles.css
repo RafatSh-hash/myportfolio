@@ -6,8 +6,7 @@ body {
   margin: 0;
   font-family:  "poppins", 'Helvetica Neue',
     sans-serif;
-    background: rgb(138,0,217);
-    background: linear-gradient(90deg, rgba(138,0,217,1) 0%, rgba(9,9,121,1) 50%, rgba(97,18,142,1) 90%);
+    background-color: rgb(170, 170, 170);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

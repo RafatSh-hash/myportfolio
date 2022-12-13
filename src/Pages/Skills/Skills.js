@@ -11,22 +11,31 @@ const Skills = () => {
   AOS.init({ duration: 1000 });
   return (
     <div className="mt-20">
-      <h1 className="text-sky-200 text-4xl text-center">Here are my skills</h1>
-      <div data-aos="fade-down" className="relative">
+      <h1 className="text-sky-200 text-5xl text-center my-10">
+        Here are my skills
+      </h1>
+      <div data-aos="fade-down" className="relative skill">
         <div class="blob0"></div>
-        <div class="my-3 text-left text-base font-medium text-white dark:text-white">
-          <ProgressBar
-            progressWidth="5px"
-            className="space"
-            label={"HTML"}
-            primaryColor={"#283048"}
-            secondaryColor={"#859398"}
-            darkTheme
-            score={95}
-          ></ProgressBar>
+        <div class=" text-left w-full text-base font-medium  dark:text-white">
+          <div
+            data-aos="fade-right"
+            class="my-3 text-left text-base font-medium  dark:text-white"
+          >
+            <ProgressBar
+              className="space"
+              label={"HTML"}
+              primaryColor={"#000000"}
+              secondaryColor={"#FFFFFF"}
+              darkTheme
+              score={95}
+            ></ProgressBar>
+          </div>
         </div>
 
-        <div class="my-3 text-left text-base font-medium text-white dark:text-white">
+        <div
+          data-aos="fade-left"
+          class="my-3 text-left text-base font-medium  dark:text-white"
+        >
           <ProgressBar
             className="space"
             label={"CSS"}
@@ -37,7 +46,10 @@ const Skills = () => {
           ></ProgressBar>
         </div>
 
-        <div class="my-3 text-left text-base font-medium text-white dark:text-white">
+        <div
+          data-aos="fade-right"
+          class="my-3 text-left text-base font-medium  dark:text-white"
+        >
           <ProgressBar
             className="space"
             label={"JavaScript"}
@@ -48,7 +60,10 @@ const Skills = () => {
           ></ProgressBar>
         </div>
 
-        <div class="my-3 text-left text-base font-medium text-white dark:text-white">
+        <div
+          data-aos="fade-left"
+          class="my-3 text-left text-base font-medium  dark:text-white"
+        >
           <ProgressBar
             className="space"
             label={"React JS"}
@@ -58,7 +73,10 @@ const Skills = () => {
           ></ProgressBar>
         </div>
 
-        <div class="my-3 text-left text-base font-medium text-white dark:text-white">
+        <div
+          data-aos="fade-right"
+          class="my-3 text-left text-base font-medium  dark:text-white"
+        >
           <ProgressBar
             className="space"
             label={"Tailwind CSS"}
@@ -69,7 +87,10 @@ const Skills = () => {
           ></ProgressBar>
         </div>
 
-        <div class="my-3 text-left text-base font-medium text-white dark:text-white">
+        <div
+          data-aos="fade-left"
+          class="my-3 text-left text-base font-medium  dark:text-white"
+        >
           <ProgressBar
             className="space"
             label={"Node JS"}
@@ -78,7 +99,10 @@ const Skills = () => {
             score={65}
           ></ProgressBar>
         </div>
-        <div class="my-3 text-left text-base font-medium text-white dark:text-white">
+        <div
+          data-aos="fade-right"
+          class="my-3 text-left text-base font-medium dark:text-white"
+        >
           <ProgressBar
             className="space"
             label={"Bootstrap"}
@@ -88,7 +112,6 @@ const Skills = () => {
           ></ProgressBar>
         </div>
       </div>
-      <div class="blob"></div>
     </div>
   );
 };

@@ -5,6 +5,7 @@ import AOS from "aos";
 import Projects from "../Projects/Projects";
 import "swiper/css";
 import "swiper/css/effect-cards";
+import Typewriter from "typewriter-effect";
 
 const Header = () => {
   AOS.init({ duration: 1000 });
@@ -22,19 +23,35 @@ const Header = () => {
           data-aos="fade-left"
           className="lg:w-1/2 sm:w-full h-auto mx-auto p-5 justify-center items-center"
         >
-          <h1 className="text-5xl text-left text-sky-200">
+          <h1 className="text-5xl text-left ">
             Hi! Welcome To
             <span className="text-red-500 font-bold"> Hex</span>
           </h1>
+          <div className="text-2xl text-white text-start font-bold">
+            <code>
+              <Typewriter
+                options={{
+                  strings: [
+                    "Web developer",
+                    "Front-End Developer",
+                    "MERN stack Developer",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </code>
+          </div>
+
           <div className="my-5">
-            <p className="text-left text-white">
+            <p className="text-left font-semibold">
               <code style={{ "font-size": "18px" }}>
                 Hello! I'm Sadman, a self-motivated and enthusiastic web
-                developer. I have been learning web development for 1 years. I
-                have learned JavaScript, React js, Node js, MongoDB, and Express
-                js during this period. Also, I am trying to explore new things
-                every day and look for an opportunity to make an impact in the
-                web development field with my acquired skills.
+                developer. I have been learning web development for 1 years as
+                well as JavaScript, React js, Node js, MongoDB, and Express js
+                during this period. Always trying to explore new things every
+                day and looking for an opportunity to make an impact in the web
+                development field with my acquired skills.
               </code>{" "}
               <br />
               <button
